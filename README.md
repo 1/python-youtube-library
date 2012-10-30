@@ -32,4 +32,19 @@ A playlist on YouTube is an ordered set of videos. Instantiate a playlist by pro
 
 is PL74058E54264993C8. Usage:
 
+    >>>> playlist = Playlist('PL74058E54264993C8')
+    >>>> playlist.id
+    'PL74058E54264993C8'
+    >>>> p.title
+    'Electromagnetic Fields & Energy, Textbook Components w Video'
+    >>>> p.user
+    'MIT'
+    >>>> p.videos 
+    # returns a list of Video objects, with the same properties as mentioned above under the video class
+    
+    
+    
+    
+    
+
 
