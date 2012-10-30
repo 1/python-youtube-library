@@ -12,8 +12,8 @@ Instantiate a video by providing a video ID to the Video constructor. The video 
 
 is 7CYXy9J4Aao. Usage:
 
-    >>>> from video import Video
-    >>>> video = Video('7CYXy9J4Aao')
+    >>>> import yt
+    >>>> video = yt.Video('7CYXy9J4Aao')
     >>>> video.id
     '7CYXy9J4Aao'
     >>>> video.title
@@ -32,7 +32,8 @@ A playlist on YouTube is an ordered set of videos. Instantiate a playlist by pro
 
 is PL74058E54264993C8. Usage:
 
-    >>>> playlist = Playlist('PL74058E54264993C8')
+    >>>> import yt
+    >>>> playlist = yt.Playlist('PL74058E54264993C8')
     >>>> playlist.id
     'PL74058E54264993C8'
     >>>> p.title
@@ -56,8 +57,8 @@ For example, MIT has a user account on YouTube; unsurprisingly, MIT's user ID is
     
 The User class is used to extract playlists uploaded by a particular user. A user object can be instantiated by passing a user ID into the User class's constructor. Usage:
 
-    >>>> from user import User
-    >>>> user = User('MIT')
+    >>>> import yt
+    >>>> user = yt.User('MIT')
     >>>> user.username
     'MIT'
     >>>> user.num_playlists
