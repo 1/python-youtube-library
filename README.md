@@ -40,7 +40,7 @@ is PL74058E54264993C8. Usage:
     >>>> p.user
     'MIT'
     >>>> p.videos 
-    # returns a list of Video objects, with the same properties as mentioned above under the video class
+    # returns a list of Video objects, with the same properties as mentioned above under the  heading 'Video Class'
     
     
     
