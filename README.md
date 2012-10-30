@@ -46,15 +46,26 @@ is PL74058E54264993C8. Usage:
 User Class:
 ===========
 
-This class is used to represent a YouTube user. Every user has a unique ID (the account the user log into). A user's page can be visited at the following URL:
+This class is used to represent a YouTube user. Every YouTube user has a unique ID (the account the user logs into). A user's page can be visited at the following URL:
 
     http://www.youtube.com/user/USER_ID
     
-For example, MIT has a user account on YouTube; unsurprisingly, it's ID is MIT. Thus, MIT's user page is:
+For example, MIT has a user account on YouTube; unsurprisingly, MIT's user ID is MIT. Thus, MIT's user page is:
 
     http://www.youtube.com/user/MIT
     
-The User class is used to extract playlists uploaded by a particular user. A user object can be instantiated by passing a user ID into the User class's constructor.
+The User class is used to extract playlists uploaded by a particular user. A user object can be instantiated by passing a user ID into the User class's constructor. Usage:
+
+    >>>> from user import User
+    >>>> user = User('MIT')
+    >>>> user.username
+    'MIT'
+    >>>> user.num_playlists
+    117
+    >>>> user.playlists
+    [Playlist(playlist_id="PLUl4u3cNGP62RGk3NhGPDaOBLH9eRmjOL"), ... , Playlist(playlist_id="PLC2CEECFD938FD494")]
+    # a list of playlist objects
+    
     
     
     
