@@ -1,7 +1,7 @@
 python-youtube-library
 ======================
 
-An user-friendly python library for getting data from YouTube API.
+A user-friendly python library for getting data from YouTube's API.
 
 Video Class:
 ============
